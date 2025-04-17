@@ -20,7 +20,7 @@ UI components (buttons, cards, grids) should remain usable and visually intact a
 
 ## |TC ID | Test Scenario                | Steps                               | Expected Result                                |
    |NF1   | Responsive layout            | Open app on desktop, tablet, mobile | Layout adjusts cleanly                         |
-   |NF2   | Accessible forms and buttons | Use screen reader or inspect aria-* | Proper accessibility tags and labels present   |
+   |NF2   | Accessible forms and buttons | Use screen reader or inspect areas  | Proper accessibility tags and labels present   |
    |NF3   | Theme contrast               | Toggle dark/light mode              | Text contrast is readable and meets WCAG       | 
    |NF4   | Keyboard navigation          | Use Tab/Enter to move through UI    | All buttons and inputs are keyboard accessible |
    |NF5   | Navigation performance       | Click between pages                 | Smooth, no reloads or jank                     |
