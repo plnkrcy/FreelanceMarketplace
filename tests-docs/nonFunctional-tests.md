@@ -17,7 +17,7 @@ Font sizes and images scale appropriately for readability.
 UI components (buttons, cards, grids) should remain usable and visually intact at all screen sizes.
 
 ---
-
+## For the proper version of this table of test scenarios, you can display them in the IDE.
 ## |TC ID | Test Scenario                | Steps                               | Expected Result                                |
    |NF1   | Responsive layout            | Open app on desktop, tablet, mobile | Layout adjusts cleanly                         |
    |NF2   | Accessible forms and buttons | Use screen reader or inspect areas  | Proper accessibility tags and labels present   |
