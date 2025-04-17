@@ -10,7 +10,8 @@ test.describe('Dashboard Functionality', () => {
     await manager.init(await chromium.launch());
     dashboardPage = new DashboardPage(manager.page);
   });
-
+  
+  // After the UI completed, this scenario console logs will be change to the e2e test.
   test('Search by freelancer name', async () => {
     const result = await dashboardPage.searchByFreeLancers('Leanne');
     expect(Array.isArray(result)).toBe(true);
@@ -28,6 +29,7 @@ test.describe('Dashboard Functionality', () => {
     console.log(output);
   });
 
+  // After the UI completed, this scenario console logs will be change to the e2e test.
   test('Filter by city', async () => {
     const result = await dashboardPage.searchByCityName('Gwenborough');
     expect(Array.isArray(result)).toBe(true);
