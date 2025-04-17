@@ -16,7 +16,7 @@ No page reload should be required.
 The new theme (light or dark) is visually consistent across the interface.
 
 ---
-
+## For the proper version of this table of test scenarios, you can display them in the IDE.
 ## |TC ID | Test Scenario          | Steps                                        | Expected Result                      |
    |TC-T1 | Toggle light/dark mode | Click theme switch toggle                    | Theme updates to dark or light       |
    |TC-T2 | Preserve theme         | Navigate between pages after switching theme | Selected theme persists across pages |
