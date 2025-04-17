@@ -17,6 +17,7 @@ test.describe('Portfolio Page Tests', () => {
 
   });
 
+  // After the UI completed, this scenario console logs will be change to the e2e test.
   test('should display freelancer details and list of jobs', async () => {
     const freelancer = await dashboardPage.getMockFreelancers();
     const jobs = await portfolioPage.getMockJobs();
@@ -52,6 +53,7 @@ test.describe('Portfolio Page Tests', () => {
     });
   });
 
+  // After the UI completed, this scenario console logs will be change to the e2e test.
   test('should show comments for a job when "Show Comments" is clicked', async () => {
     const comments = await portfolioPage.getMockComments();
     expect(comments).toBeDefined();
@@ -77,6 +79,7 @@ test.describe('Portfolio Page Tests', () => {
     });
   });
 
+  // After the UI completed, this scenario console logs will be change to the e2e test.
   test('should return freelancers within job count range', async () => {
     const freelancer = await dashboardPage.getMockFreelancers();
     const result = await portfolioPage.searchByFinishedJobCount(3, 7);
