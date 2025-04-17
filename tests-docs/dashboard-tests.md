@@ -26,7 +26,7 @@ Freelancers from Gwenborough are displayed. (Since the UI is not available yet, 
 
 
 ## |TC ID | Test Scenario                  | Steps                                                | Expected Result                                                  |
-   |:----:|:------------------------------:|:----------------------------------------------------:|:----------------------------------------------------------------:|
+   |------|--------------------------------|------------------------------------------------------|------------------------------------------------------------------|
    |TC-D1 | Display freelancers list       | Open Dashboard                                       | Freelancers' name, email, phone, city, photo, job count are shown|
    |TC-D2 | Search by name                 | Type "Leanne" in the name search input               | Only freelancers with "Leanne" in their name are displayed       |
    |TC-D3 | Search by finished job count   | Enter min = 3 and max = 6 in job count search fields | Only freelancers with job count in range are shown               |
