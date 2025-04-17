@@ -34,7 +34,7 @@ Freelancers whose completed job counts fall within the specified range (3 to 7) 
 (Since the UI is not available yet, the results are currently printed to the console using mock data.)
 
 ---
-
+## For the proper version of this table of test scenarios, you can display them in the IDE.
 ## |TC ID | Test Scenario                 | Steps                             | Expected Result                                       |
    |TC-P1 | Display freelancer info       | Open portfolio page               | Freelancer name, phone, address, website are visible  |
    |TC-P2 | List past jobs                | Load portfolio                    | Job titles and bodies from /posts displayed           |
