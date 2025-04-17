@@ -14,7 +14,7 @@ The form should not be submitted.
 The popup should remain open, highlighting fields with errors.
 
 ---
-
+##For the proper version of this table of test scenarios, you can display them in the IDE.
 ## |TC ID | Test Scenario         | Steps                      | Expected Result                      |
    |TC-H1 | Popup displays fields | Open hire popup            | All fields present                   |
    |TC-H2 | Form validation       | Submit with empty fields   | Validation errors shown              |
