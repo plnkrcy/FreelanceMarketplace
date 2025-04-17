@@ -2,7 +2,7 @@ import { Page } from '@playwright/test';
 import { fetchJobs, fetchComments } from '../utils/mockData';
 
 export class PortfolioPage {
-  constructor(public page: Page) { }
+  constructor(public page: Page) { } // for UI tests unnecessary for now
 
   async getMockJobs() {
     const jobs = await fetchJobs();
