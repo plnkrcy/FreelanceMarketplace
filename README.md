@@ -1,12 +1,13 @@
 # Odine Freelance Marketplace — E2E Test Project
 
+> **Note:** This project is not an E2E test project right now. After the UI is built, the test scenarios will also include UI scenarios.
 This repository contains an end-to-end (E2E) testing suite for **Odine Freelance Marketplace**, a single-page application (SPA) mimicking a simplified freelancing platform like Upwork.
 
 > ✅ Built using **Playwright**  
 > ✅ Implements **Page Object Model (POM)** and **Singleton pattern**  
 > ✅ Uses **mock data** from [JSONPlaceholder](https://jsonplaceholder.typicode.com)  
 > ✅ Includes human-readable test scenarios in Markdown format
-> **Note:** This project is not an E2E test project right now. After the UI is built, the test scenarios will also include UI scenarios.
+
 ---
 
 ## 🚀 To Run It:
